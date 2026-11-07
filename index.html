@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Student Management System</h1>
+
+<form id="studentForm">
+    <label>Student ID</label><br>
+    <input type="text" id="studentId"><br><br>
+
+    <label>Student Name</label><br>
+    <input type="text" id="studentName"><br><br>
+
+    <label>Department</label><br>
+    <input type="text" id="department"><br><br>
+
+    <label>Year</label><br>
+    <input type="number" id="year"><br><br>
+
+    <label>Email</label><br>
+    <input type="email" id="email"><br><br>
+
+    <button type="button" id="addStudentBtn">Add Student</button>
+</form>
+
+<hr>
+
+<h2>Student Records</h2>
+
+<table border="1" width="100%">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Year</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody id="studentTableBody">
+
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
